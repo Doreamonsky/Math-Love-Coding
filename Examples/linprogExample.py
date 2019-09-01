@@ -17,6 +17,10 @@ import numpy as np
 # res = optimize.linprog(c, A_ub=A, b_ub=b, A_eq=Aeq, b_eq=beq,
 #                        bounds=[(0, None), (0, None), (0, None)])
 
+# Linear programming solves problems of the following form:
+# Ax<=b
+# Aeq * x = beq
+# lb<=x<=ub bounds 来限制范围
 
 # 例 1  某机床厂生产甲、乙两种机床，每台销售后的利润分别为 4000 元与 3000 元。
 # linprog 默认是求最小值，求最大值要把 c 反号
