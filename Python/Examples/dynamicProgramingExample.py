@@ -42,4 +42,9 @@ def climbLadder(n):
     return fn
 
 
-print(climbLadder(3))
+print(climbLadder(13))
+
+
+# https://www.jianshu.com/p/ef1abd49c007
+# 算法：动态规划解决<国王和金矿>
+#
