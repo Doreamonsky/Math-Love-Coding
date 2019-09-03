@@ -5,7 +5,7 @@ using namespace std;
 struct Edge
 {
     string src, dest;
-
+    
     float weight;
 };
 
@@ -62,5 +62,4 @@ int main()
     graph->edge[6].dest = "F";
     graph->edge[6].weight = 3;
 
-    cout << "Hello";
 }
