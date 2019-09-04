@@ -29,7 +29,7 @@ namespace Algorithm
                 return 0;
             }
 
-            var edges = graph.edges.FindAll(val => val.layer == layer & & val.src == src);
+            var edges = graph.edges.FindAll(val => val.layer == layer && val.src == src);
 
             return edges.Min(val => (val.weight + Fn(graph, val.dest, layer + 1)));
         }
