@@ -7,6 +7,7 @@
             // 动态规划求有向图最短路径
             DPShortPath.Init();
 
+            //图例见 https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
             //Dijkstra’s shortest path algorithm
             var graph = new int[,] {
                     { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
